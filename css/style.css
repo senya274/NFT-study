@@ -1,0 +1,344 @@
+body {
+  font-family: "Audiowide", cursive;
+  background: black;
+  color: white;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 40px;
+  letter-spacing: 0.2em;
+}
+.nav a:hover {
+  color: red;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.nav .logo {
+  font-size: 40px;
+}
+
+.header__intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header__intro .header__text {
+  width: 580px;
+  height: 430px;
+  margin-top: 130px;
+}
+.header__intro .header__text p {
+  width: 350px;
+  line-height: 26px;
+  font-size: 18px;
+  margin-bottom: 115px;
+}
+.header__intro .header__text h1 {
+  font-size: 50px;
+}
+
+.header__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #8dfd1b;
+  width: 205px;
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.header__btn:hover {
+  background: red;
+  color: white;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.header__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.text__left h2 {
+  font-size: 38px;
+}
+.text__left h3 {
+  font-size: 40px;
+  color: #a8a8a8;
+}
+
+.text__right {
+  margin-left: 185px;
+  width: 580px;
+  height: 425px;
+}
+.text__right h4 {
+  color: #8dfd1b;
+  line-height: 32px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.text__btn {
+  width: 300px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid green;
+}
+
+.text__btn:hover {
+  background: red;
+  color: white;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.header__photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 125px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1300px;
+  height: 680px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header__photo .gallery__artist {
+  font-size: 50px;
+  letter-spacing: 0.2em;
+}
+.header__photo .gallery {
+  margin-top: 120px;
+}
+.header__photo img {
+  margin-right: 60px;
+  margin-bottom: 80px;
+}
+
+.section {
+  margin-top: 350px;
+}
+.section h3 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.section__img {
+  margin-top: 120px;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.intro h3 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.intro .intro__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  width: 880px;
+  height: 538px;
+  background: #222222;
+}
+.intro .intro__img {
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 40px;
+}
+.intro .intro__text h2 {
+  width: 500px;
+  height: 90px;
+  color: #8dfd1b;
+  margin-left: 65px;
+  margin-top: 70px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+.intro .intro__text p {
+  font-weight: 400;
+  margin-top: 28px;
+}
+
+.roadmap {
+  position: relative;
+}
+
+.roadmap__image_first {
+  position: absolute;
+  left: 10%;
+}
+
+.roadmap__image_second {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+
+.roadmap__desc {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.roadmap__desc h3 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.roadmap__desc .roadmap__card {
+  width: 550px;
+  height: 280px;
+  margin-bottom: 100px;
+  background: #222222;
+  border: 1px solid #8dfd1b;
+}
+.roadmap__desc .roadmap__card .card__subtitle {
+  border-bottom: 1px solid #8dfd1b;
+}
+.roadmap__desc .roadmap__card .card__subtitle p {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  text-align: center;
+}
+.roadmap__desc .roadmap__card .card__text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contacts {
+  width: 1200px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 150px;
+}
+.contacts img {
+  margin-left: 200px;
+}
+
+.discord {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  height: 350px;
+}
+.discord span {
+  color: #8dfd1b;
+}
+.discord h3 {
+  font-size: 50px;
+}
+.discord p {
+  width: 350px;
+}
+.discord a {
+  margin-top: 30px;
+  width: 220px;
+  height: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #8dfd1b;
+  text-decoration: none;
+  color: black;
+}
+.discord a:hover {
+  background: red;
+  color: white;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.footer {
+  background: #42006a;
+  margin-top: 50px;
+}
+.footer .footer__title {
+  padding-top: 70px;
+  font-size: 30px;
+  letter-spacing: 0.5em;
+}
+.footer .footer__subtitle {
+  margin-top: 70px;
+  padding-bottom: 70px;
+  letter-spacing: 0.3em;
+}
